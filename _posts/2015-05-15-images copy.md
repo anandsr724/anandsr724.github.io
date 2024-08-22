@@ -2,13 +2,19 @@
 layout: post
 title: a post with images
 date: 2015-05-15 21:01:00
-description: this is what included images could look like
+description: this is the copy
 tags: formatting images
 categories: sample-posts
 thumbnail: assets/img/9.jpg
 ---
 
 This is an example post with image galleries.
+For the dataset, I used a publicly available dataset on Kaggle. You can find the dataset [here](https://www.pinterest.com) .
+
+{% highlight python %}
+classes_ideal = ['(', ')', '+', '-', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '[', ']',
+'cos', 'e', 'forward_slash', 'log', 'pi', 'sin', 'sqrt', 'tan', 'times']
+{% endhighlight %}
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -28,9 +34,6 @@ Simply add `data-zoomable` to `<img>` tags that you want to make zoomable.
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/8.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/10.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
