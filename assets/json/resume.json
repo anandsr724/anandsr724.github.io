@@ -17,8 +17,8 @@
     "profiles": [
       {
         "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "username": "anand_724",
+        "url": "https://x.com/anand_724"
       }
     ]
   },
@@ -29,7 +29,7 @@
       "url": "https://www.iith.ac.in/",
       "area": "Industrial Chemistry",
       "studyType": "B.Tech",
-      "startDate": "November, 2021",
+      "startDate": "2021-11",
       "endDate": "Ongoing",
       "score": "8.7"
     }
@@ -52,53 +52,124 @@
       "startDate": "2022-05-01",
       "endDate": "2023-05-01",
       "summary": "The National Service Scheme (NSS) is a voluntary public service program in India that provides students with opportunities to participate in community service activities. The program is run by the Government of India's Ministry of Youth Affairs and Sports, and is implemented by the Department of Youth Services and Sports.",
-      "highlights": ["Organised various social welfare events as a organising team member", "Men of the year 2014 by Time magazine"]
+      "highlights": ["Organised various social welfare events as a organising team member"]
     },
     {
       "organization": "G20, IIT Hyderabad",
       "location": "Hyderabad, India",
       "position": "Volunteer",
       "url": "https://nss.iith.ac.in/team2022.html",
-      "date": "2023-04-17",
+      "startDate": "2023-04-17",
+      "endDate": "2023-04-18",
       "summary": "Contributed to showcasing the technology, product innovation to the delegates from G20 Digital Economy Working Group (DEWG)"
      }
   ],
+  "Position of Responsiblity": [
+    {
+      "organization": "Students' Gymkhana, IIT Hyderabad",
+      "location": "Hyderabad, India",
+      "position": "Media and Public Relations Secretary",
+      "url": "https://nss.iith.ac.in/team2022.html",
+      "startDate": "2023-05-01",
+      "endDate": "2024-05-01",
+      "summary": "Was elected as the Media & Public Relations Secretary in the Students Union of IIT Hyderabad",
+      "highlights": ["Headed a team of around 30 students that worked for the PR and outreach of the Institute"]
+    },
+    {
+      "organization": "Department of CSE, IIT Hyderabad",
+      "location": "Hyderabad, India",
+      "position": "Teaching Assistant",
+      "url": "https://nss.iith.ac.in/team2022.html",
+      "startDate": "2022-11-01",
+      "endDate": "2023-02-01",
+      "summary": "Teaching Assistant for the course Intro to Programming (ID1063)",
+      "highlights": ["Evaluated student assignments and provided constructive feedback to support their learning and skill development in programming.", "Facilitated interactive learning experiences by addressing students' questions and concerns related to programming concepts and assignments." , "Mentored and guided students in honing their problem-solving abilities and programming proficiency."]
+    },
+    {
+      "organization": "Elan & nVision, IIT Hyderabad",
+      "location": "Hyderabad, India",
+      "position": "Coordinator",
+      "url": "https://nss.iith.ac.in/team2022.html",
+      "startDate": "2022-04-01",
+      "endDate": "2023-04-01",
+      "summary": "Elan & nVision is the annual cultural and technical fest of IIT Hyderabad , I was coordinator of the Multimedia team responsible for the coverage of the event as well as creating media for outreach"
+   },
+    {
+      "organization": "Infocus, IIT Hyderabad",
+      "location": "Hyderabad, India",
+      "position": "Core Member",
+      "url": "https://nss.iith.ac.in/team2022.html",
+      "startDate": "2022-04-01",
+      "endDate": "2023-04-01",
+      "summary": "Part of the Photography Club of IIT Hyderabad as Core Member"
+   }
+  ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
+      "name": "Machine Learning Specialization",
+      "date": "2024-11-07",
       "issuer": "Stanford University",
-      "url": "https://example.com",
+      "url": "https://coursera.org/verify/specialization/XQFDAJ9EL58Z",
       "icon": "fa-solid fa-location-dot"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
+      "name": "Advanced Learning Algorithms",
+      "date": "2024-05-05",
       "issuer": "Stanford University",
-      "url": "https://example.com",
+      "url": "https://coursera.org/verify/ZAEG2SYYQNKU",
       "icon": "fa-solid fa-tag"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Natural Language Processing",
+      "date": "2024-08-18",
+      "issuer": "DeepLearning.AI",
+      "url": "https://coursera.org/verify/JTAFBBDE0ZGF",
       "icon": "fa-solid fa-envelope"
     }
 
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Machine Learning & AI",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Natural Language Processing",
+        "Computer Vision",
+        "MLOps",
+        "API Integration"
+      ]
+    },
+    {
+      "name": "Computational Chemistry & Modelling",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Molecular Modelling",
+        "Vienna Ab initio Simulation Package (VASP)",
+        "Quantum Espresso",
+        "HPCs"
+      ]
+    },
+    {
+      "name": "Scripting & Automation",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Making Automation Scripts and Bots",
+        "Python",
+        "C++",
+        "Data Structures & Algorithms"
+      ]
+    },
+    {
+      "name": "Micellaneous",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Motion Graphics",
+        "Video Editing",
+        "Photography"
       ]
     }
   ],
@@ -112,19 +183,36 @@
       "language": "English",
       "fluency": "Fluent",
       "icon": ""
+    },
+    {
+      "language": "Japanese",
+      "fluency": "Elementary",
+      "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Machine Learning & AI",
       "icon": "fa-solid fa-tag",
       "keywords": [
         "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Quantum Computing"
+      ]
+    },
+    {
+      "name": "Computational Chemistry",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Quantum Mechanics",
+        "Quantum Computing"
+      ]
+    },
+    {
+      "name": "Psychology",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Quantum Mechanics",
+        "Quantum Computing"
       ]
     }
   ],
