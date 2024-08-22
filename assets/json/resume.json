@@ -34,12 +34,25 @@
       "score": "8.7"
     }
   ],
+  "projects": [
+    {
+      "name": "Handwritten Equation Solver",
+      "summary": "Applied Computer Vision to solve a given handwritten mathematical equation",
+      "highlights": ["Trained a model on dataset of math symbols", "Created a custom python class that solves the equation using the classifed symbols"],
+      "url": "https://equation-solver-y5en.onrender.com/"
+    },
+    {
+      "name": "Crystine (CRYSTal INsight Engine)",
+      "summary": "Created a data analysis library for python that is being used by research labs in the domain of  computational chemistry.",
+      "url": "https://github.com/anandsr724/crystine"
+    }
+  ],
   "awards": [
     {
       "title": "Academic Excellence",
       "date": "2021-11-09",
       "awarder": "Indian Institute of Technology Hyderabad",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+      "url": "",
       "summary": "Academic Excellence is awarded to students for thier outstanding academic performance"
     }
   ],
@@ -64,7 +77,7 @@
       "summary": "Contributed to showcasing the technology, product innovation to the delegates from G20 Digital Economy Working Group (DEWG)"
      }
   ],
-  "Position of Responsiblity": [
+  "positions of responsiblity": [
     {
       "organization": "Students' Gymkhana, IIT Hyderabad",
       "location": "Hyderabad, India",
@@ -141,17 +154,6 @@
       ]
     },
     {
-      "name": "Computational Chemistry & Modelling",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Molecular Modelling",
-        "Vienna Ab initio Simulation Package (VASP)",
-        "Quantum Espresso",
-        "HPCs"
-      ]
-    },
-    {
       "name": "Scripting & Automation",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
@@ -160,6 +162,17 @@
         "Python",
         "C++",
         "Data Structures & Algorithms"
+      ]
+    },
+    {
+      "name": "Computational Chemistry & Modelling",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Molecular Modelling",
+        "Vienna Ab initio Simulation Package (VASP)",
+        "Quantum Espresso",
+        "HPCs"
       ]
     },
     {
@@ -222,15 +235,6 @@
       "icon": "fa-solid fa-laptop",
       "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
   ]
+  
 }
