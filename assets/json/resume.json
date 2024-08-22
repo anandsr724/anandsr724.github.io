@@ -73,53 +73,6 @@
       "summary": "Academic Excellence is awarded to students for thier outstanding academic performance"
     }
   ],
-  "awards2": [
-    {
-      "organization": "Students' Gymkhana, IIT Hyderabad",
-      "location": "Hyderabad, India",
-      "position": "Media & Public Relations Secretary",
-      "url": "https://gymkhana.iith.ac.in/office-bearers/",
-      "startDate": "2023-05-01",
-      "endDate": "2024-05-01",
-      "summary": "Was elected as the Media & Public Relations Secretary in the Students Union of IIT Hyderabad",
-      "highlights": [
-        "Led a team of 30 students in organizing major events and PR campaigns.",
-        "Enhanced the institute's online presence through strategic social media campaigns."
-      ]
-
-    },
-    {
-      "organization": "Department of CSE, IIT Hyderabad",
-      "location": "Hyderabad, India",
-      "position": "Teaching Assistant",
-      "url": "https://nss.iith.ac.in/team2022.html",
-      "startDate": "2022-11-01",
-      "endDate": "2023-02-01",
-      "summary": "Teaching Assistant for the course Intro to Programming (ID1063)",
-      "highlights": [
-        "Evaluated assignments and provided constructive feedback to improve students' programming skills.",
-        "Facilitated interactive learning by addressing student queries and challenges."
-      ]
-    },
-    {
-      "organization": "Elan & nVision, IIT Hyderabad",
-      "location": "Hyderabad, India",
-      "position": "Coordinator",
-      "url": "https://nss.iith.ac.in/team2022.html",
-      "startDate": "2022-04-01",
-      "endDate": "2023-04-01",
-      "summary": "Elan & nVision is the annual cultural and technical fest of IIT Hyderabad , Coordinated the Multimedia team for Elan & nVision, managing media coverage and outreach for the event."
-    },
-    {
-      "organization": "Infocus, IIT Hyderabad",
-      "location": "Hyderabad, India",
-      "position": "Core Member",
-      "url": "https://nss.iith.ac.in/team2022.html",
-      "startDate": "2022-04-01",
-      "endDate": "2023-04-01",
-      "summary": "Core member of the Photography Club, contributing to event coverage and creative projects."
-   }
-  ],
   "volunteer": [
     {
       "organization": "NSS, IIT Hyderabad",
