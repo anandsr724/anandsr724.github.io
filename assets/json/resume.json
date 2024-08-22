@@ -73,6 +73,21 @@
       "summary": "Academic Excellence is awarded to students for thier outstanding academic performance"
     }
   ],
+  "por": [
+    {
+      "organization": "Students' Gymkhana, IIT Hyderabad",
+      "location": "Hyderabad, India",
+      "position": "Media & Public Relations Secretary",
+      "url": "https://gymkhana.iith.ac.in/office-bearers/",
+      "startDate": "2023-05-01",
+      "endDate": "2024-05-01",
+      "summary": "Was elected as the Media & Public Relations Secretary in the Students Union of IIT Hyderabad",
+      "highlights": [
+        "Led a team of 30 students in organizing major events and PR campaigns",
+        "Enhanced the institute's online presence through strategic social media campaigns"
+      ]
+    }
+  ],
   "volunteer": [
     {
       "organization": "NSS, IIT Hyderabad",
@@ -188,8 +203,11 @@
       "name": "Machine Learning & AI",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing"
+        "Explainable AI",
+        "Reinforcement Learning",
+        "AI in Healthcare",
+        "Natural Language Processing",
+        "Computer Vision"
       ]
     },
     {
