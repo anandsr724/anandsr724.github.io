@@ -19,6 +19,16 @@
         "network": "Twitter",
         "username": "anand_724",
         "url": "https://x.com/anand_724"
+      },
+      {
+        "network": "GitHub",
+        "username": "anandsr724",
+        "url": "https://github.com/anandsr724"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "anandsr724",
+        "url": "https://www.linkedin.com/in/anandsr724/"
       }
     ]
   },
@@ -37,13 +47,20 @@
   "projects": [
     {
       "name": "Handwritten Equation Solver",
-      "summary": "Applied Computer Vision to solve a given handwritten mathematical equation",
-      "highlights": ["Trained a model on dataset of math symbols", "Created a custom python class that solves the equation using the classifed symbols"],
-      "url": "https://equation-solver-y5en.onrender.com/"
+      "summary": "Developed a computer vision-based system to solve handwritten mathematical equations by training a CNN on a dataset of mathematical symbols and creating a custom Python class for equation solving.",
+      "highlights": [
+        "Achieved high accuracy in symbol classification using CNNs.",
+        "Integrated OpenCV for image preprocessing and symbol segmentation.",
+        "Deployed the model on a web application for real-time equation solving."
+      ],"url": "https://equation-solver-y5en.onrender.com/"
     },
     {
       "name": "Crystine (CRYSTal INsight Engine)",
-      "summary": "Created a data analysis library for python that is being used by research labs in the domain of  computational chemistry.",
+      "summary": "Developed a Python library for data analysis, primarily used in computational chemistry research for analyzing and visualizing crystal structures.",
+      "highlights": [
+        "Automated the conversion of raw computational data into meaningful plots and insights.",
+        "Published the library on PyPI, gaining adoption in multiple research labs."
+      ],
       "url": "https://github.com/anandsr724/crystine"
     }
   ],
@@ -56,16 +73,20 @@
       "summary": "Academic Excellence is awarded to students for thier outstanding academic performance"
     }
   ],
-  "volunteer2": [
+  "Positons of Responsibility": [
     {
       "organization": "Students' Gymkhana, IIT Hyderabad",
       "location": "Hyderabad, India",
       "position": "Media and Public Relations Secretary",
-      "url": "https://nss.iith.ac.in/team2022.html",
+      "url": "https://gymkhana.iith.ac.in/office-bearers/",
       "startDate": "2023-05-01",
       "endDate": "2024-05-01",
       "summary": "Was elected as the Media & Public Relations Secretary in the Students Union of IIT Hyderabad",
-      "highlights": ["Headed a team of around 30 students that worked for the PR and outreach of the Institute"]
+      "highlights": [
+        "Led a team of 30 students in organizing major events and PR campaigns.",
+        "Enhanced the institute's online presence through strategic social media campaigns."
+      ]
+
     },
     {
       "organization": "Department of CSE, IIT Hyderabad",
@@ -75,7 +96,10 @@
       "startDate": "2022-11-01",
       "endDate": "2023-02-01",
       "summary": "Teaching Assistant for the course Intro to Programming (ID1063)",
-      "highlights": ["Evaluated student assignments and provided constructive feedback to support their learning and skill development in programming.", "Facilitated interactive learning experiences by addressing students' questions and concerns related to programming concepts and assignments." , "Mentored and guided students in honing their problem-solving abilities and programming proficiency."]
+      "highlights": [
+        "Evaluated assignments and provided constructive feedback to improve students' programming skills.",
+        "Facilitated interactive learning by addressing student queries and challenges."
+      ]
     },
     {
       "organization": "Elan & nVision, IIT Hyderabad",
@@ -84,8 +108,8 @@
       "url": "https://nss.iith.ac.in/team2022.html",
       "startDate": "2022-04-01",
       "endDate": "2023-04-01",
-      "summary": "Elan & nVision is the annual cultural and technical fest of IIT Hyderabad , I was coordinator of the Multimedia team responsible for the coverage of the event as well as creating media for outreach"
-   },
+      "summary": "Elan & nVision is the annual cultural and technical fest of IIT Hyderabad , Coordinated the Multimedia team for Elan & nVision, managing media coverage and outreach for the event."
+    },
     {
       "organization": "Infocus, IIT Hyderabad",
       "location": "Hyderabad, India",
@@ -93,7 +117,7 @@
       "url": "https://nss.iith.ac.in/team2022.html",
       "startDate": "2022-04-01",
       "endDate": "2023-04-01",
-      "summary": "Part of the Photography Club of IIT Hyderabad as Core Member"
+      "summary": "Core member of the Photography Club, contributing to event coverage and creative projects."
    }
   ],
   "volunteer": [
@@ -104,8 +128,11 @@
       "url": "https://nss.iith.ac.in/team2022.html",
       "startDate": "2022-05-01",
       "endDate": "2023-05-01",
-      "summary": "The National Service Scheme (NSS) is a voluntary public service program in India that provides students with opportunities to participate in community service activities. The program is run by the Government of India's Ministry of Youth Affairs and Sports, and is implemented by the Department of Youth Services and Sports.",
-      "highlights": ["Organised various social welfare events as a organising team member"]
+      "summary": "Led the coordination of various social welfare activities and events, promoting community service and social responsibility among students.",
+      "highlights": [
+        "Organized blood donation drives and awareness campaigns.",
+        "Facilitated collaborations with local NGOs for community outreach programs."
+      ]
     },
     {
       "organization": "G20, IIT Hyderabad",
@@ -217,23 +244,23 @@
       "icon": "fa-solid fa-tag",
       "keywords": [
         "Quantum Mechanics",
-        "Quantum Computing"
+        "Molecular Modelling"
       ]
     },
     {
       "name": "Psychology",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing"
+        "Cognitive Science",
+        "Behavioral Psychology"
       ]
     }
   ],
   "references": [
     {
-      "name": "Professor John Doe",
+      "name": "Professor Arup Mahata",
       "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "I completed my B.Tech semester project under the supervision of Dr. Arup Mahata, IIT Hyderabad"
     }
   ]
   
