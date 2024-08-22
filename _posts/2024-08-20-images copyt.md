@@ -1,7 +1,7 @@
 ---
 layout: post
 title: a post with images
-date: 2024-08-23 21:01:00
+date: 2024-08-20 21:01:00
 description: this is the copy to ch3eck new dat1
 tags: formatting images
 categories: sample-posts

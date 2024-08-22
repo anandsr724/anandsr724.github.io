@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Solving Handwritten Equations with Deep Learning - A Step-by-Step Guide
-date: 2024-08-24 16:40:16
+date: 2024-04-15 16:40:16
 description: this is a test
 tags: formatting links
 categories: sample-posts
