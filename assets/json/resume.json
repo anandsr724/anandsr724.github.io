@@ -56,28 +56,7 @@
       "summary": "Academic Excellence is awarded to students for thier outstanding academic performance"
     }
   ],
-  "volunteer": [
-    {
-      "organization": "NSS, IIT Hyderabad",
-      "location": "Hyderabad, India",
-      "position": "Team Coordinator",
-      "url": "https://nss.iith.ac.in/team2022.html",
-      "startDate": "2022-05-01",
-      "endDate": "2023-05-01",
-      "summary": "The National Service Scheme (NSS) is a voluntary public service program in India that provides students with opportunities to participate in community service activities. The program is run by the Government of India's Ministry of Youth Affairs and Sports, and is implemented by the Department of Youth Services and Sports.",
-      "highlights": ["Organised various social welfare events as a organising team member"]
-    },
-    {
-      "organization": "G20, IIT Hyderabad",
-      "location": "Hyderabad, India",
-      "position": "Volunteer",
-      "url": "https://nss.iith.ac.in/team2022.html",
-      "startDate": "2023-04-17",
-      "endDate": "2023-04-18",
-      "summary": "Contributed to showcasing the technology, product innovation to the delegates from G20 Digital Economy Working Group (DEWG)"
-     }
-  ],
-  "positions of responsiblity": [
+  "volunteer2": [
     {
       "organization": "Students' Gymkhana, IIT Hyderabad",
       "location": "Hyderabad, India",
@@ -116,6 +95,27 @@
       "endDate": "2023-04-01",
       "summary": "Part of the Photography Club of IIT Hyderabad as Core Member"
    }
+  ],
+  "volunteer": [
+    {
+      "organization": "NSS, IIT Hyderabad",
+      "location": "Hyderabad, India",
+      "position": "Team Coordinator",
+      "url": "https://nss.iith.ac.in/team2022.html",
+      "startDate": "2022-05-01",
+      "endDate": "2023-05-01",
+      "summary": "The National Service Scheme (NSS) is a voluntary public service program in India that provides students with opportunities to participate in community service activities. The program is run by the Government of India's Ministry of Youth Affairs and Sports, and is implemented by the Department of Youth Services and Sports.",
+      "highlights": ["Organised various social welfare events as a organising team member"]
+    },
+    {
+      "organization": "G20, IIT Hyderabad",
+      "location": "Hyderabad, India",
+      "position": "Volunteer",
+      "url": "https://nss.iith.ac.in/team2022.html",
+      "startDate": "2023-04-17",
+      "endDate": "2023-04-18",
+      "summary": "Contributed to showcasing the technology, product innovation to the delegates from G20 Digital Economy Working Group (DEWG)"
+     }
   ],
   "certificates": [
     {
