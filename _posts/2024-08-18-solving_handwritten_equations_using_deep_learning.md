@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Solving Handwritten Equations with Deep Learning - A Step-by-Step Guide
-date: 2024-04-15 16:40:16
-description: this is a test
-tags: formatting links
-categories: sample-posts
+title: Solving Handwritten Equations with Deep Learning
+date: 2024-08-18 16:40:16
+description: A Step-by-Step Guide
+tags: compputer-vision math 
+categories: project-blog
 ---
 
 In today's digital age, machine learning (ML) has revolutionized numerous fields, including image recognition and natural language processing. One intriguing problem that combines both these areas is the automatic solving of handwritten mathematical equations. Imagine taking a picture of a complex equation and having a machine instantly provide the solution. This blog post delves into how I built a machine learning model to achieve just that.
@@ -33,13 +33,13 @@ classes_ideal = ['(', ')', '+', '-', '0', '1', '2', '3', '4', '5', '6', '7', '8'
 These symbols cover a broad range of arithmetic operations and functions commonly used in mathematical equations.
 
 ### Dataset
-For the dataset, I used a publicly available dataset on Kaggle. You can find the dataset [here](https://www.pinterest.com) .
+For the dataset, I used a publicly available dataset on Kaggle. You can find the dataset [here](https://www.kaggle.com/datasets/xainano/handwrittenmathsymbols) .
 
 Analyzing the dataset, we noticed an imbalance in the number of images per class. For instance, some classes like ( and ) had only 700 images, while others like 1, 2, and 5 had a significantly larger number of images.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/8.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/blogs_media/blog1/class_distribution.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -62,7 +62,7 @@ For certain symbols like /, we generated 10 new images from each original image,
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/8.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/blogs_media/blog1/aug2.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -116,7 +116,7 @@ model.summary()
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/8.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/blogs_media/blog1/Model_architecture.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -126,7 +126,7 @@ This is what the output from the 2nd convolutional layer looks like:
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/8.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/blogs_media/blog1/all_symbols_conv.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -134,7 +134,7 @@ Lets take an example of + and x symbols and try to understand how the convolutio
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/8.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/blogs_media/blog1/complete_visualization_plus_times.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -142,7 +142,7 @@ If we observe the 4th convolutional layer , we can see how the is detecting the 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/8.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/blogs_media/blog1/anno_complete_visualization_plus_times.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -152,7 +152,7 @@ After training the model, we evaluated its performance using various metrics lik
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/8.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/blogs_media/blog1/confusion_matrix.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -174,7 +174,7 @@ We will have to crop the image into different sections containing single symbols
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/8.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/blogs_media/blog1/bounding_box_viz_2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -184,16 +184,16 @@ First we import the image then we convert it to grayscale , after converting to 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/9.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/blogs_media/blog1/opencv_parent.png" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/7.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/blogs_media/blog1/opencv_theshold.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/9.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/blogs_media/blog1/bounding_box_viz5.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -208,7 +208,7 @@ Powers: Correctly parsing and solving expressions with exponents.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/9.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/blogs_media/blog1/1_13.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -222,7 +222,7 @@ we will have to somehow mention that the 3 was raised to the power of 4. For thi
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/9.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/blogs_media/blog1/bounding_box_viz3.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -238,7 +238,7 @@ Multiple Digits: Properly identifying and combining multiple digits.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/9.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/blogs_media/blog1/1_14.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -260,7 +260,7 @@ Consider this image
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/9.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/blogs_media/blog1/bounding_box_viz.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -271,6 +271,8 @@ From this
 ['9', '3', '+', 'sqrt', '1', '6', '+', '9', '-', '7', '2']
  we get this -> 93+math.sqrt(16+9)-7**2
 ```
+
+<hr>
 
 ### Conclusion
 By combining convolutional neural networks for symbol recognition with image segmentation techniques, we can build an efficient system for solving handwritten mathematical equations. This project showcases the power of machine learning in automating complex tasks and has practical applications in educational tools, digitizing handwritten notes, and more.
@@ -283,15 +285,3 @@ Thank you for reading! Feel free to explore the code and dataset linked above, a
 - fixie
 - raybans
 - messenger bag
-
-
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
-
-<hr>
-
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
-
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
-
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
