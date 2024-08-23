@@ -44,6 +44,22 @@
       "score": "8.7"
     }
   ],
+  "work": [
+    {
+      "name": "Department of Chemistry, IIT Hyderabad",
+      "position": "Research Intern",
+      "startDate": "2023-05-01",
+      "endDate": "2024-05-01",
+      "summary": "Supervisor: Dr. Arup Mahata",
+      "highlights": [
+        "Led a computational study focusing on Covalent Organic Frameworks (COFs) for their potential application in photocatalytic hydrogen evolution, aiming to explore sustainable energy solutions.", 
+        "Developed expertise in quantum chemistry and computational chemistry, gaining proficiency in simulating the electronic and structural properties of materials using VASP and Quantum Espresso." , 
+        "Played a key role in compiling and parallelizing Density Functional Theory (DFT) codes into High-Performance Computing (HPC) systems." , 
+        "Authored several Python, and bash post-processing scripts for the visualization and analysis of simulation results." , 
+        "Employed Chemcraft and VESTA for modeling COF structures, contributing to a deeper understanding of COFs' properties and their potential for sustainable energy applications."
+      ]
+    }
+  ],
   "projects": [
     {
       "name": "Handwritten Equation Solver",
@@ -62,6 +78,14 @@
         "Published the library on PyPI, gaining adoption in multiple research labs."
       ],
       "url": "https://github.com/anandsr724/crystine"
+    },
+    {
+      "name": "Computational Study on the Effect of Acetylene Linkage on COF for Photocatalytic Hydrogen Evolution",
+      "summary": "Conducted a comprehensive computational study to investigate the impact of acetylene linkages on the electronic properties of Covalent Organic Frameworks (COFs) for hydrogen evolution reaction (HER)",
+      "highlights": [
+        "Employed Density Functional Theory (DFT) with PBE and PBE0 functionals using VASP software for geometry optimization and electronic structure calculations.",
+        "Developed a custom Python library, Crystine, for efficient data analysis and visualization, which is now publicly available on PyPI."
+      ]
     }
   ],
   "awards": [

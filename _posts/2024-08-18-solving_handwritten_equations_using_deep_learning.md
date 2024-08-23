@@ -278,10 +278,3 @@ From this
 By combining convolutional neural networks for symbol recognition with image segmentation techniques, we can build an efficient system for solving handwritten mathematical equations. This project showcases the power of machine learning in automating complex tasks and has practical applications in educational tools, digitizing handwritten notes, and more.
 
 Thank you for reading! Feel free to explore the code and dataset linked above, and happy coding!
-
-#### Hipster list
-
-- brunch
-- fixie
-- raybans
-- messenger bag
