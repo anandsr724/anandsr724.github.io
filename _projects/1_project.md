@@ -29,26 +29,25 @@ This project involved the development of a sophisticated chatbot capable of simu
 - **Challenges and Optimizations**: One of the challenges I faced was optimizing the retrieval process for speed without sacrificing accuracy. To address this, I worked on chunking the documents efficiently and setting up the retriever to return the best results based on both query and chat history. The integration of **create_history_aware_retriever** ensured that context wasn't lost even over longer conversations.
 
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/project_media/varta_ss.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    A snapshot of the chat bot.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+
+This project offered valuable experience in:
+
+- Combining state-of-the-art natural language processing techniques like RAG with traditional retrieval systems.
+- Embedding-based document retrieval.
+- Deploying machine learning applications in real-time environments using **Flask**.
+- Managing conversation history and crafting custom prompt chains.
+
+By creating a chatbot that reflects my own personality and knowledge, this project demonstrates the potential of RAG for personal and customizable AI-driven applications.
+
 
 {% raw %}
 
