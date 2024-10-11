@@ -2,7 +2,7 @@
 layout: page
 title: Personal Chatbot Using Retrieval-Augmented Generation (RAG)
 description: A project on RAG
-img: assets/img/12.jpg
+img: assets/project_media/rag_thumbnail.png
 importance: 1
 category: work
 related_publications: true
