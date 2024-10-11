@@ -1,25 +1,14 @@
 ---
 layout: page
-title: project 77
-description: with background image
+title: Personal Chatbot Using Retrieval-Augmented Generation (RAG)
+description: A project on RAG
 img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+This project involved the development of a sophisticated chatbot capable of simulating personalized responses, leveraging Retrieval-Augmented Generation (RAG). The goal was to create a conversational agent that mimics my personal communication style and responds accurately based on context, using a combination of embeddings and vector search.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
